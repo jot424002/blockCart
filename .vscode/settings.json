@@ -1,0 +1,5 @@
+{
+  "solidity.compileUsingLocalVersion": "/opt/homebrew/lib/node_modules/solc/soljson.js",
+  "solidity.defaultCompiler": "localFile",
+  "solidity.compileUsingRemoteVersion": "v0.8.20+commit.a1b79de6"
+}

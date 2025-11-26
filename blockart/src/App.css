@@ -1,0 +1,114 @@
+/* Entire App Layout */
+.App {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  background: #fbf5ef; /* soft warm beige */
+  min-height: 100vh;
+}
+
+/* Main Title */
+h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #7a5642;
+}
+
+/* Section Titles */
+h2 {
+  font-size: 30px;
+  margin-top: 70px;
+  margin-bottom: 25px;
+  color: #7a5642;
+  text-align: center;
+}
+
+/* Success Status Text */
+p {
+  color: #5a4a3b;
+  margin: 10px 0;
+}
+
+/* List Item Box */
+.list-item {
+  background: #fff8f0;
+  padding: 40px;
+  border-radius: 18px;
+  width: 85%;
+  margin: 20px auto 40px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* Inputs */
+.input-field {
+  width: 80%;
+  max-width: 380px;
+  padding: 14px;
+  margin: 12px auto;
+  border: 1px solid #cfb8a6;
+  border-radius: 10px;
+  display: block;
+  background: #ffffff;
+  font-size: 15px;
+}
+
+/* Buttons */
+button {
+  padding: 14px 28px;
+  margin: 12px 10px;
+  border: none;
+  background: #dba976; /* warm caramel */
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.25s ease-out;
+}
+
+button:hover {
+  background: #c68f5e;
+}
+
+/* Cards Section */
+.items,
+.owned-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 35px;
+  margin-top: 15px;
+}
+
+/* Each Card */
+.item-card {
+  background: #fff8f0;
+  width: 300px;
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+.item-card:hover {
+  transform: translateY(-7px);
+}
+
+/* Images */
+.item-image {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  background: #f1dfca; /* fallback color */
+}
+
+/* Transfer box INSIDE card */
+.item-card .input-field {
+  width: 90%;
+  margin-top: 10px;
+}
